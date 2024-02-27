@@ -1,7 +1,23 @@
+import Body from "./components/Body";
+import Header from "./components/Header";
+
 function App() {
   return (
     <div>
-      <h1>Youtube</h1>
+      <Header />
+      <Body />
+
+      {/* 
+      Header
+      Body
+       Sidebar
+        MenuItems
+       MainContainer
+        ButtonList
+        VideoContainer
+         VideoCard
+      
+      */}
     </div>
   );
 }
